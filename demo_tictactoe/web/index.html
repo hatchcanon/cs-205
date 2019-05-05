@@ -1,0 +1,119 @@
+{% extends "static/templates/projectBase.html" %}
+{% block projectContent %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+<script src="web/vis.js"></script>
+
+<div id="tree"></div>
+
+<!--
+
+<style>
+.board {
+	padding-top: 25px;
+	padding-bottom: 70px;
+	width: 180px;
+	margin: 0px auto;
+}
+
+.board div
+{
+    clear: both;
+}
+
+.board div span
+{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    width: 60px;
+	float: left;
+    height: 54px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+}
+
+#cell_top_left { border-width: 0px 2px 2px 0px; }
+#cell_top_center { border-width: 0px 2px 2px 2px; }
+#cell_top_right { border-width: 0px 0px 2px 2px; }
+
+#cell_middle_left { border-width: 2px 2px 2px 0px; }
+#cell_middle_center { border-width: 2px 2px 2px 2px; }
+#cell_middle_right { border-width: 2px 0px 2px 2px; }
+
+#cell_bottom_left { border-width: 2px 2px 0px 0px; }
+#cell_bottom_center { border-width: 2px 2px 0px 2px; }
+#cell_bottom_right { border-width: 2px 0px 0px 2px; }
+</style>
+
+
+<h3 class="text-center">CS 205's tic-tac-toe</h3>
+<h4 class="text-center" id="gameOver" style="display:none">
+	The game is over. <a href="?show=py_viz">Reset?</a>
+</h4>
+
+<div class="container" style="width: 180px; text-align: center;">
+  <div class="row">
+    <div class="board">
+      <div>
+        <span id="cell_top_left"></span>
+        <span id="cell_top_center"></span>
+        <span id="cell_top_right"></span>
+      </div>
+      <div>
+        <span id="cell_middle_left"></span>
+        <span id="cell_middle_center"></span>
+        <span id="cell_middle_right"></span>
+      </div>
+      <div>
+        <span id="cell_bottom_left"></span>
+        <span id="cell_bottom_center"></span>
+        <span id="cell_bottom_right"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr />
+<script>
+show_trees = function() {
+	$("#div_show").hide();
+	$("#div_tree").show();
+	visualize(_tree, "#tree");
+	visualize(_bfs, "#tree_bfs");
+	visualize(_dfs, "#tree_dfs");
+}
+</script>
+
+<div id="div_show" class="text-center">
+	<button onclick="show_trees()" type="button" class="btn btn-primary">Show State Trees</button>
+</div>
+
+<div id="div_tree" style="display: none">
+	<h3>All Valid States</h3>
+	<p>
+		The first tree shows every possible state that this game may reach, not
+		accounting for any intelligence from the human or the computer.
+	</p>
+	<div id="tree"></div>
+
+	<h3>Depth-First Search</h3>
+	<p>
+		This second tree shows an evaluation of the game state using a depth-first
+		search, pruning paths once a state where a win can be reached when a player
+		makes the optimal move.
+	</p>
+	<div id="tree_dfs"></div>
+
+	<h3>Breath-First Search</h3>
+	<p>
+		This final tree shows an evaluation of the game state using a breath-first
+		search, pruning paths once a state where a win can be reached when a player
+		makes the optimal move.
+	</p>
+	<div id="tree_bfs"></div>
+</div>
+
+-->
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "static/templates/projectBase.html" %}
+{% block projectContent %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.1/tinycolor.js"></script>
+<script src="web/vis.js"></script>
+
+<h2>Frequency of words in "The Hunger Games"</h2>
+<hr />
+
+<style>
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+</style>
+
+<div class="container" id="content">
+</div>
+
+{% endblock %}

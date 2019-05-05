@@ -1,0 +1,252 @@
+[
+  {
+    "route": "13N Silver",
+    "expected": 0,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "12W Teal",
+    "expected": 1,
+    "route_color": "006991"
+  },
+  {
+    "route": "2U Red",
+    "expected": 1,
+    "route_color": "ed1c24"
+  },
+  {
+    "route": "22S Illini",
+    "expected": 3,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "22N Illini",
+    "expected": 5,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "21 Raven Vet-Med",
+    "expected": 5,
+    "route_color": "000000"
+  },
+  {
+    "route": "13S Silver",
+    "expected": 6,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "13N Silver",
+    "expected": 6,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "12E Teal Orchard Downs",
+    "expected": 6,
+    "route_color": "006991"
+  },
+  {
+    "route": "5W Green",
+    "expected": 9,
+    "route_color": "008063"
+  },
+  {
+    "route": "22S Illini",
+    "expected": 12,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "12W Teal",
+    "expected": 13,
+    "route_color": "006991"
+  },
+  {
+    "route": "5E Green",
+    "expected": 13,
+    "route_color": "008063"
+  },
+  {
+    "route": "22N Illini",
+    "expected": 13,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "12E Teal PAR",
+    "expected": 15,
+    "route_color": "006991"
+  },
+  {
+    "route": "13S Silver",
+    "expected": 16,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "13N Silver",
+    "expected": 16,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "12W Teal",
+    "expected": 21,
+    "route_color": "006991"
+  },
+  {
+    "route": "22S Illini",
+    "expected": 22,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "5W GREENhopper",
+    "expected": 22,
+    "route_color": "008063"
+  },
+  {
+    "route": "22N Illini",
+    "expected": 23,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "2C Red",
+    "expected": 23,
+    "route_color": "ed1c24"
+  },
+  {
+    "route": "13S Silver",
+    "expected": 26,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "13N Silver",
+    "expected": 26,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "12E Teal Orchard Downs",
+    "expected": 27,
+    "route_color": "006991"
+  },
+  {
+    "route": "5E GREENhopper",
+    "expected": 27,
+    "route_color": "008063"
+  },
+  {
+    "route": "2U Red",
+    "expected": 30,
+    "route_color": "ed1c24"
+  },
+  {
+    "route": "12W Teal",
+    "expected": 31,
+    "route_color": "006991"
+  },
+  {
+    "route": "22S Illini",
+    "expected": 32,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "22N Illini",
+    "expected": 33,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "21 Raven Vet-Med",
+    "expected": 35,
+    "route_color": "000000"
+  },
+  {
+    "route": "13N Silver",
+    "expected": 36,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "13S Silver",
+    "expected": 36,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "5W Green",
+    "expected": 38,
+    "route_color": "008063"
+  },
+  {
+    "route": "2C Red",
+    "expected": 41,
+    "route_color": "ed1c24"
+  },
+  {
+    "route": "22S Illini",
+    "expected": 42,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "22N Illini",
+    "expected": 43,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "12E Teal Orchard Downs",
+    "expected": 45,
+    "route_color": "006991"
+  },
+  {
+    "route": "13N Silver",
+    "expected": 46,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "13S Silver",
+    "expected": 46,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "5E Green",
+    "expected": 46,
+    "route_color": "008063"
+  },
+  {
+    "route": "22S Illini",
+    "expected": 52,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "5W GREENhopper",
+    "expected": 52,
+    "route_color": "008063"
+  },
+  {
+    "route": "12W Teal",
+    "expected": 52,
+    "route_color": "006991"
+  },
+  {
+    "route": "22N Illini",
+    "expected": 53,
+    "route_color": "5a1d5a"
+  },
+  {
+    "route": "8E Bronze",
+    "expected": 53,
+    "route_color": "9e8966"
+  },
+  {
+    "route": "12E Teal PAR",
+    "expected": 55,
+    "route_color": "006991"
+  },
+  {
+    "route": "5E GREENhopper",
+    "expected": 55,
+    "route_color": "008063"
+  },
+  {
+    "route": "13S Silver",
+    "expected": 56,
+    "route_color": "cccccc"
+  },
+  {
+    "route": "13N Silver",
+    "expected": 56,
+    "route_color": "cccccc"
+  }
+]

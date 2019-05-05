@@ -1,0 +1,33 @@
+{% extends "static/templates/projectBase.html" %}
+{% block projectContent %}
+
+<script src="web/vis.js"></script>
+
+<h3>State Tree Graph</h3>
+<p>
+	The state tree for the game is rendered below.  As part of the graph:
+</p>
+<ul>
+	<li>
+		A <b style="color: hsla(229, 100%, 50%, 1)">blue</b> edge visually encodes
+		a positive-weight edge.
+	</li>
+
+	<li>
+		A <b style="color: hsla(0, 0%, 50%, 1)">gray</b> edge visually encodes
+		a zero/low-weight edge.
+	</li>
+
+	<li>
+		A <b style="color: hsla(0, 100%, 50%, 1)">red</b> edge visually encodes
+		a negative-weight edge.
+	</li>
+
+</ul>
+
+<hr />
+
+<div id="chart" style="text-align: center;"></div>
+
+
+{% endblock %}
