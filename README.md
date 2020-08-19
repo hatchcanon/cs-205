@@ -17,3 +17,6 @@ work for CS 205 will reside.
 - git
 - Flask (Python)
 - d3.js
+
+## Final Result
+[Grade disparity between sections at UIUC](http://waf.cs.illinois.edu/discovery/grade_disparity_between_sections_at_uiuc/) - a visualisation to show whether the perception of disparity of grades between different sections is true or not

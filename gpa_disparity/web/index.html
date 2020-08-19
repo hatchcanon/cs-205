@@ -1,0 +1,141 @@
+{% extends "static/templates/projectBase.html" %}
+{% block projectContent %}
+
+<style>
+
+.cs205viz div div  {
+  line-height: 110%;
+  text-align: right;
+}
+
+
+h6 {
+  margin-top: 4px !important;
+}
+
+.cs205-headerRow {
+  border-bottom: dotted 1px #444;
+}
+
+
+/* table { font-size: 14px; } */
+/* table tr:first-child { border-bottom: solid 1px black;  } */
+/* table tr td { padding-top: 3px; } */
+/* table tr td { padding: 0px; line-height: 110%; padding-right: 5px; vertical-align: bottom; text-align: right; } */
+
+h6 { margin: 0px; font-weight: bold; text-decoration: underline; }
+
+
+    .cs205checkbox {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .cs205checkbox > span {
+      border: solid 1px #004;
+      border-radius: 4px;
+      color: #004;
+      margin-right: 20px;
+      display: inline-block;
+    }
+
+    .cs205checkbox > span > label {
+      padding: 4px 12px;
+      margin-bottom: 0px;
+    }
+
+
+    .sel {
+      background-color: #ffa;
+    }
+</style>
+
+<h2>Final Project</h2>
+
+<h3>Introduciton</h3>
+
+<p>
+  One of the most frustrating situations to find yourself in is a course
+  where all of your friends are in the &quot;easier section&quot;.  For most
+  of us, it feels like this happens <i>all of the time</i>.  As part of a
+  growing set of GPA visualizations, students in
+  <a href="https://courses.engr.illinois.edu/cs199205/" target="_blank">CS 205: Data Driven Discovery</a>
+  took the deepest dive into the GPA data to date to find out whether the
+  perception of different sections is true or not.
+</p>
+
+<p>
+  Using GPA data from the most recent six semesters (Fall 2014 through Fall 2016),
+  we found the distribution of every section/instructor group within every course.
+  Every such group is visualized and displayed against the course average.
+</p>
+
+
+<h3>Legend</h3>
+<p>
+  The distribution of final grades for a course is displayed as a stacked
+  distribution.
+</p>
+<div class="row">
+  <div class="col-xs-1" style="background-color: red;">
+    &nbsp; &nbsp;
+  </div>
+  <div class="col-xs-11">
+    The lightest region shades grades recieved by only top/bottom 5% of students (10% total)
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-1">
+
+  </div>
+  <div class="col-xs-11">
+    Slightly darker regions shows grades recieved by students between 5% and 10% (10% total)
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-1">
+
+  </div>
+  <div class="col-xs-11">
+    Even darker regions shows grades recieved by students between 10% and 25% (30% total)
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-1">
+
+  </div>
+  <div class="col-xs-11">
+    The darkest regions shows grades recieved by middle 50% of students (50% total)
+  </div>
+</div>
+
+
+<!--
+<p>
+  With this tool, the next time you find yourself registering for courses, you will no longer have to look up teacher ratings to decide which course would go the most smoothly. You may simply look here and effectively project yourself a great semester.
+</p>
+-->
+
+<h3>Visualization</h3>
+<div id="checkboxes" class="cs205checkbox">
+  <span class="form-group">
+    <label for="major_CS">
+      <input data-filter="CS" type="checkbox" id="major_CS"> CS
+    </label>
+  </span>
+
+  <span class="form-group">
+    <label for="major_MATH">
+      <input data-filter="MATH" type="checkbox" id="major_MATH"> MATH
+    </label>
+  </span>
+
+</div>
+
+<div id="chart"></div>
+
+<script src="web/vis.js"></script>
+
+<div class="row"><div class="col-xs-6" id="sizer"></div></div>
+
+{% endblock %}
